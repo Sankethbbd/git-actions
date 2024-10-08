@@ -13,6 +13,6 @@ jobs:
 
       # Step 2: Run Super-Linter
       - name: Super-Linter
-        uses: github/super-linter@v7.1.0
+        uses: github/super-linter@v4  # Use v4, the latest stable version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
